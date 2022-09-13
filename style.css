@@ -16,14 +16,14 @@
 }
 .mod:hover{
     background: #F17900;
-    transform-origin: 0 0;
+    transform-origin: top left;
     transform: translate(30%, 0) skew(0deg,-10deg);
 
 } 
 .psu:hover{
-    background: #562cff;
-    transform-origin: 0 0;
-    transform: translate(-30%, 0) skew(0deg,-10deg);
+    background: rgba(57, 77, 255, 1);
+    transform-origin: top left;
+    transform: translate(-30%, -20%) skew(0deg,-10deg);
 } 
 .report{
     background: url(Hexs.svg) no-repeat;
