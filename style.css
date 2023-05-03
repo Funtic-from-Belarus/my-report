@@ -1,12 +1,16 @@
+@import url(/nullstyle.css);
 *{
     text-align: center;
 }
-.header__logos{
+
+.header{
     width: 100%;
+}
+.header__logos{
+    
     display: flex;
-    padding-top: 33.33px;
-    padding-bottom: 33.33px;
-    justify-content: space-between;
+    padding: 33.33px 10px;
+   justify-content: space-between;
     border-bottom: solid;
     border-bottom-style: groove;
     box-shadow: 0px 2px 4px rgba(38, 50, 56, 0.16);
@@ -15,15 +19,17 @@
     transition: all .8s ease-in-out 0s;
 }
 .mod:hover{
+    padding: 3px;
     background: #F17900;
     transform-origin: top left;
-    transform: translate(30%, 0) skew(0deg,-10deg);
+    transform: translate(30%, 10%) skew(0deg,-10deg);
 
 } 
 .psu:hover{
+    padding: 3px;
     background: rgba(57, 77, 255, 1);
     transform-origin: top left;
-    transform: translate(-30%, -20%) skew(0deg,-10deg);
+    transform: translate(-30%, -50%) skew(0deg,10deg);
 } 
 .report{
     background: url(Hexs.svg) no-repeat;
@@ -181,6 +187,9 @@
 }
 .module2 img:hover{
     transform: translate(10%, 30%)
+}
+.link{
+    padding-bottom: 100px;
 }
 .link__GitHub{
     border: 1px solid #ADADAD;
